@@ -1,6 +1,6 @@
 namespace: vattenfall
 helm:
-  chart: https://raw.githubusercontent.com/MistyFX/fleet/refs/heads/main/ecp-endpoint-4.12.0.tgz
+  chart: https://raw.githubusercontent.com/MistyFX/fleet/refs/heads/main/ecp-endpoint-4.12.2.tgz
   clusterSelector:
     matchLabels:
       env: test
