@@ -1,6 +1,6 @@
 namespace: dudekjar
 helm:
   releaseName: ecp-endpoint
-  chart: https://harbor.kyln.tech/chartrepo/entsoe-public/ecp-endpoint-4.15.0.tgz
+  chart: blob:https://harbor.kyln.tech/aabe886a-2a26-4fcd-918e-73ca6890535e   
 valuesFiles:
     - values.yaml
