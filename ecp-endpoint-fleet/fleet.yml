@@ -1,6 +1,6 @@
 namespace: dudekjar
 helm:
-  releaseName: ecp-endpoint
+  releaseName: ecco-sp
   chart: ecp-endpoint
   repo: https://harbor.kyln.tech/chartrepo/entsoe-public
   version: 4.15.0
