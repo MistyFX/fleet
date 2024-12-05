@@ -4,5 +4,5 @@ helm:
   chart: ecp-endpoint
   repo: https://harbor.kyln.tech/chartrepo/entsoe-public
   version: 4.15.0
-valuesFiles:
+  valuesFiles:
     - values.yaml
