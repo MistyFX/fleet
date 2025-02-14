@@ -4,11 +4,11 @@ helm:
   chart: cert-manager
   repo: https://charts.jetstack.io
   version: 1.12.16
-    values:
-      installCRDs: true
-      webhook:
-        enabled: true
-      cainjector:
-        enabled: true
-      startupapicheck:
-        enabled: true
+  values:
+    installCRDs: true
+    webhook:
+      enabled: true
+    cainjector:
+      enabled: true
+    startupapicheck:
+      enabled: true
