@@ -11,7 +11,3 @@ helm:
       storage:
         type: sqlite
         path: /data/data.db
-      endpoints:
-        name: Example
-        url: https://example.com
-        conditions: '[STATUS] == 200'
