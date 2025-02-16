@@ -16,3 +16,7 @@ helm:
           url: https://example.com
           conditions:
             - '[STATUS] == 200'
+        - name: Bix
+          url: https://bix.tieto.com
+          conditions:
+            - '[STATUS] == 200'
