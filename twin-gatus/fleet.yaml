@@ -20,3 +20,7 @@ helm:
           url: https://bix.tieto.com
           conditions:
             - '[STATUS] == 200'
+        - name: Bix
+          url: https://www.tietoevry.com/
+          conditions:
+            - '[STATUS] == 200'
