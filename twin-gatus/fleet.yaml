@@ -17,10 +17,12 @@ helm:
           conditions:
             - '[STATUS] == 200'
         - name: Bix
+          group: Corporate
           url: https://bix.tieto.com
           conditions:
             - '[STATUS] == 200'
-        - name: Bix
+        - name: Tietoevry
+          group: Corporate
           url: https://www.tietoevry.com
           conditions:
             - '[STATUS] == 200'
