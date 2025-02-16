@@ -1,0 +1,18 @@
+defaultNamespace: twin-gatus
+helm:
+  releaseName: twin-gatus
+  chart: gatus
+  repo: https://twin.github.io/helm-charts
+  version: 1.1.0
+  values:
+    - persistence:
+          enabled: true
+      - config:
+          storage:
+            type: sqlite
+            path: /data/data.db
+          endpoints:
+            - name: Example
+              url: https://example.com
+              conditions:
+                - '[STATUS] == 200'
