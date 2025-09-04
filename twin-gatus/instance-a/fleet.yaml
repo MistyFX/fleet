@@ -1,12 +1,14 @@
 defaultNamespace: twin-gatus
 helm:
-  releaseName: twin-gatus
+  releaseName: instance-a
   chart: gatus
   repo: https://twin.github.io/helm-charts
-  version: 1.3.0
+  version: 1.3.1
   values:
     persistence:
       enabled: true
+    image:
+        tag: "v5.23.2"
     config:
       storage:
         type: sqlite
@@ -14,15 +16,5 @@ helm:
       endpoints:
         - name: Example
           url: https://example.com
-          conditions:
-            - '[STATUS] == 200'
-        - name: Bix
-          group: Corporate
-          url: https://bix.tieto.com
-          conditions:
-            - '[STATUS] == 200'
-        - name: Tietoevry
-          group: Corporate
-          url: https://www.tietoevry.com
           conditions:
             - '[STATUS] == 200'
