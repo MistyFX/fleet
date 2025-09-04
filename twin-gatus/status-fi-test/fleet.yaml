@@ -18,5 +18,3 @@ helm:
           url: https://example.com
           conditions:
             - '[STATUS] == 200'
-  valuesFiles:
-    - ../shared-conf.yaml
