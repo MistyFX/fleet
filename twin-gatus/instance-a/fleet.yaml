@@ -16,4 +16,3 @@ helm:
   valuesFiles:
     - endpoints/endpoint-a.yaml
     - endpoints/endpoint-aa.yaml
-
