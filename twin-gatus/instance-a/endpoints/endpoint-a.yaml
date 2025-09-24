@@ -1,0 +1,6 @@
+    config:
+      endpoints:
+        - name: Example
+          url: https://www.iana.org
+          conditions:
+            - '[STATUS] == 200'

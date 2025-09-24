@@ -1,0 +1,4 @@
+.DS_Store
+.ansible/.lock
+.vscode/settings.json
+.roomodes
