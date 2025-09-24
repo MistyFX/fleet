@@ -8,12 +8,10 @@ helm:
     image:
         tag: "v5.23.2"
     config:
-      storage:
-        type: sqlite
-        path: /data/data.db
       endpoints:
         - name: Example
           url: https://example.com
           conditions:
             - '[STATUS] == 200'
+
 
