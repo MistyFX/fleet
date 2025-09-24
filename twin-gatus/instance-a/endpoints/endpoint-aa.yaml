@@ -1,6 +1,6 @@
     config:
       endpoints:
-        - name: Example
+        - name: Example-aa
           url: https://www.rfc-editor.org
           conditions:
             - '[STATUS] == 200'
