@@ -14,5 +14,5 @@ helm:
           conditions:
             - '[STATUS] == 200'
   valuesFiles:
-    - endpoints/endpoint-a.yaml
-    #- endpoints/endpoint-aa.yaml
+    - endpoint-a.yaml
+    - endpoint-aa.yaml
