@@ -1,0 +1,13 @@
+apiVersion: v2
+name: dotnet
+type: application
+version: 1.0.0
+
+dependencies:
+  - name: dotnet
+    repository: "oci://harbor.kyln.tech/helm-charts"
+    version: "13.3.0"
+    alias: dotnet
+  - name: libchart
+    repository: "oci://harbor.kyln.tech/helm-charts"
+    version: "4.3.0"
